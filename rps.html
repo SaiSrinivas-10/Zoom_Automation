@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Rock Paper Scissors</title>
+    <link href = "rps.css" rel="stylesheet">
+    <script src = "rps.js"></script>
+</head>
+<body>
+    <div class="overall">
+    <div class="scoreboard">       
+        <table>            
+            <tr>
+                <th>You</th>
+                <th>Bot</th>                
+            </tr>
+
+            <tr>
+                <td><p id="upoint">0</p></td>                
+                <td><p id="bpoint">0</p></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="options">
+        <button id="rock" name="rock" onclick="check(0)">ROCK</button>
+        <button id="paper" name="paper" onclick="check(1)">PAPER</button>
+        <button id= "scissor" name="scissors" onclick="check(2)">SCISSORS</button>
+    </div>
+
+    <p id="result"></p>
+    <p id="finalresult"></p>
+    <div class="trybutton">
+        <button id="tryagain" onclick="refresh()">TRY AGAIN</button>
+    </div>
+
+</div>
+
+</body>
+</html>
