@@ -17,7 +17,7 @@ function submittime(){
     }
 
     else if(time == adat){
-        window.open("https://us04web.zoom.us/j/77311135015?pwd=VWN3bnJPT1pET1FFUEw0SERUcGgrdz09");
+        window.open("https://us04web.zoom.us/j/77083649544?pwd=bVZpbVkzTUsxRVU3N3E4VzVBb2xqZz09");
         display();
     }
     else if(time == pcct){
