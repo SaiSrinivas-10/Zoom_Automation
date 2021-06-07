@@ -10,25 +10,25 @@ function submittime(){
     var time = today.getHours() + ":" +minutes;
     document.getElementById('time').innerHTML=time;
 
-    if(time == cosmt){
+     if(time == cosmt){
         window.open("https://zoom.us/j/3244357754?pwd=a0Rnc1o1Y3JUNkxYQzVqclpzMTVXdz09");
         display();  
     }
 
     else if(time == ost){
-        window.open("https://us04web.zoom.us/j/77311135015?pwd=VWN3bnJPT1pET1FFUEw0SERUcGgrdz09");
+        window.open("https://zoom.us/j/97390893253?pwd=ZWZHYTNlTG1FZGlpQmd2K3JwTXNkdz09");
         display();
     }
     else if(time == dccnt){
-        window.open("https://zoom.us/j/3848569137?pwd=ZTFtTmM3WndOcFR0YXhPYWEzSjlHUT09");
+        window.open("https://us02web.zoom.us/j/89707462170?pwd=Q2syaXArQnIvdndiajRHcUVHUFpNUT09");
         display();
     }
     else if(time == javat){
-        window.open("https://us04web.zoom.us/j/76580633198?pwd=R3NOZ3JMaWhaaUVIQlhuZnY2Zmk2dz09");
+        window.open("https://us04web.zoom.us/j/76609044278?pwd=alk1R3NqSmYzQWxGS2tja0w2c0FmUT09");
         display();
     }
     else if(time == befat){
-        window.open("https://us04web.zoom.us/j/6845247405?pwd=VXVHWWY4RGxVLzFSRzl6NjEzTWdJUT09");
+        window.open("https://us04web.zoom.us/j/9899817766?pwd=WlZqL3NJZGhRSy83T1dKMDRkNkM0UT09");
         display();
     }
     
