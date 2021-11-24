@@ -12,12 +12,12 @@ function submittime(){
     document.getElementById('time').innerHTML=time;
 
     if(time == dmt){
-        window.open("https://us04web.zoom.us/j/9922162287?pwd=Wkp3TXgySWh5Ylo0bkxtR0FFdXlFZz09");
+        window.open("https://zoom.us/j/95099931261?pwd=cUNySmlWU0FqdWtxdERhNkhNQTdUUT09");
         display();  
     }
 
     else if(time == adat){
-        window.open("https://us04web.zoom.us/j/77083649544?pwd=bVZpbVkzTUsxRVU3N3E4VzVBb2xqZz09");
+        window.open("https://zoom.us/j/99513049276?pwd=Q3VyUW5sbXVCSGF5aEFjRGsxeXIrUT09");
         display();
     }
     else if(time == pcct){
