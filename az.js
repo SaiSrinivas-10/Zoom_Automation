@@ -1,5 +1,5 @@
 function submittime(){
-    var dmt=document.getElementById("dmt").value;
+    var app=document.getElementById("app").value;
     var adat=document.getElementById('adat').value;
     var pcct=document.getElementById('pcct').value;
     var iott=document.getElementById('iott').value;
@@ -11,8 +11,8 @@ function submittime(){
     var time = today.getHours() + ":" +minutes;
     document.getElementById('time').innerHTML=time;
 
-    if(time == dmt){
-        window.open("https://zoom.us/j/95099931261?pwd=cUNySmlWU0FqdWtxdERhNkhNQTdUUT09");
+    if(time == app){
+        window.open("https://meet.goto.com/699591325");
         display();  
     }
 
