@@ -12,7 +12,7 @@ function submittime(){
     document.getElementById('time').innerHTML=time;
 
     if(time == app){
-        window.open("https://meet.goto.com/699591325");
+        window.open("https://us04web.zoom.us/j/4296050648?pwd=Jlae9naKcOydobpLW3hI58UaMzcoj1.1");
         display();  
     }
 
